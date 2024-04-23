@@ -1,0 +1,403 @@
+[1713874234.045][INFO]: Starting ChromeDriver 124.0.6367.60 (8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798}) on port 3555
+[1713874234.045][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1713874234.153][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\barkh\\IdeaProjects\\HW2\\build\\downloads\\1713874233903_11312_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1713874234.153][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chrome.exe
+[1713874234.153][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chrome.exe
+[1713874234.153][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chromium.exe
+[1713874234.155][INFO]: Browser search. Trying... C:\Users\barkh\AppData\Local\Google\Chrome\Application\chrome.exe
+[1713874234.155][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1713874234.155][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1713874234.156][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\barkh\\IdeaProjects\\HW2\\build\\downloads\\1713874233903_11312_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1713874234.156][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1713874234.157][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1713874234.157][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1713874234.158][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\barkh\AppData\Local\Temp\scoped_dir4524_1575690454" --window-size=1920,1080 data:,
+[1713874234.668][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1713874234.672][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "124.0.6367.61",
+      "chrome": {
+         "chromedriverVersion": "124.0.6367.60 (8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798})",
+         "userDataDir": "C:\\Users\\barkh\\AppData\\Local\\Temp\\scoped_dir4524_1575690454"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50209"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0a9c402e6c8ebd941bd0ecd5f4343311"
+}
+[1713874234.762][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1713874234.762][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE SetTimeouts
+[1713874234.769][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND Navigate {
+   "url": "https://ok.ru/"
+}
+[1713874234.769][INFO]: Waiting for pending navigations...
+[1713874234.772][INFO]: Done waiting for pending navigations. Status: ok
+[1713874234.870][INFO]: Waiting for pending navigations...
+[1713874237.011][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.011][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE Navigate
+[1713874237.039][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"field_email\"]"
+}
+[1713874237.039][INFO]: Waiting for pending navigations...
+[1713874237.039][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.047][INFO]: Waiting for pending navigations...
+[1713874237.048][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.048][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.5879EB6506A11F2AD99FABD0BF857ED1.d.63251BD04D67468F65FE092EE49995CF.e.4"
+}
+[1713874237.053][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND TypeElement {
+   "id": "f.5879EB6506A11F2AD99FABD0BF857ED1.d.63251BD04D67468F65FE092EE49995CF.e.4",
+   "text": "technopol62",
+   "value": [ "t", "e", "c", "h", "n", "o", "p", "o", "l", "6", "2" ]
+}
+[1713874237.053][INFO]: Waiting for pending navigations...
+[1713874237.053][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.078][INFO]: Waiting for pending navigations...
+[1713874237.080][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.080][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE TypeElement
+[1713874237.083][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"field_password\"]"
+}
+[1713874237.083][INFO]: Waiting for pending navigations...
+[1713874237.083][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.091][INFO]: Waiting for pending navigations...
+[1713874237.092][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.092][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.5879EB6506A11F2AD99FABD0BF857ED1.d.63251BD04D67468F65FE092EE49995CF.e.5"
+}
+[1713874237.095][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND TypeElement {
+   "id": "f.5879EB6506A11F2AD99FABD0BF857ED1.d.63251BD04D67468F65FE092EE49995CF.e.5",
+   "text": "technopolisPassword",
+   "value": [ "t", "e", "c", "h", "n", "o", "p", "o", "l", "i", "s", "P", "a", "s", "s", "w", "o", "r", "d" ]
+}
+[1713874237.095][INFO]: Waiting for pending navigations...
+[1713874237.095][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.132][INFO]: Waiting for pending navigations...
+[1713874237.136][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.136][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE TypeElement
+[1713874237.169][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874237.169][INFO]: Waiting for pending navigations...
+[1713874237.169][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.179][INFO]: Waiting for pending navigations...
+[1713874237.179][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.179][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874237.401][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874237.401][INFO]: Waiting for pending navigations...
+[1713874237.401][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.407][INFO]: Waiting for pending navigations...
+[1713874237.407][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.407][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874237.616][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874237.616][INFO]: Waiting for pending navigations...
+[1713874237.617][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.622][INFO]: Waiting for pending navigations...
+[1713874237.623][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.623][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874237.835][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874237.835][INFO]: Waiting for pending navigations...
+[1713874237.835][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.840][INFO]: Waiting for pending navigations...
+[1713874237.840][INFO]: Done waiting for pending navigations. Status: ok
+[1713874237.840][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874238.053][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874238.053][INFO]: Waiting for pending navigations...
+[1713874238.053][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.058][INFO]: Waiting for pending navigations...
+[1713874238.059][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.059][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874238.270][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874238.270][INFO]: Waiting for pending navigations...
+[1713874238.270][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.274][INFO]: Waiting for pending navigations...
+[1713874238.275][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.275][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874238.488][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874238.488][INFO]: Waiting for pending navigations...
+[1713874238.488][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.492][INFO]: Waiting for pending navigations...
+[1713874238.493][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.493][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874238.704][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874238.704][INFO]: Waiting for pending navigations...
+[1713874238.704][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.708][INFO]: Waiting for pending navigations...
+[1713874238.709][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.709][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874238.922][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874238.922][INFO]: Waiting for pending navigations...
+[1713874238.923][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.927][INFO]: Waiting for pending navigations...
+[1713874238.927][INFO]: Done waiting for pending navigations. Status: ok
+[1713874238.927][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874239.138][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874239.138][INFO]: Waiting for pending navigations...
+[1713874239.139][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.143][INFO]: Waiting for pending navigations...
+[1713874239.144][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.144][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874239.359][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874239.359][INFO]: Waiting for pending navigations...
+[1713874239.360][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.364][INFO]: Waiting for pending navigations...
+[1713874239.364][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.364][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874239.576][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874239.576][INFO]: Waiting for pending navigations...
+[1713874239.577][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.581][INFO]: Waiting for pending navigations...
+[1713874239.581][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.581][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874239.792][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874239.792][INFO]: Waiting for pending navigations...
+[1713874239.793][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.797][INFO]: Waiting for pending navigations...
+[1713874239.797][INFO]: Done waiting for pending navigations. Status: ok
+[1713874239.797][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874240.009][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874240.009][INFO]: Waiting for pending navigations...
+[1713874240.009][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.013][INFO]: Waiting for pending navigations...
+[1713874240.013][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.013][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874240.227][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874240.227][INFO]: Waiting for pending navigations...
+[1713874240.227][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.231][INFO]: Waiting for pending navigations...
+[1713874240.232][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.232][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874240.444][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874240.444][INFO]: Waiting for pending navigations...
+[1713874240.445][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.449][INFO]: Waiting for pending navigations...
+[1713874240.449][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.449][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874240.660][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874240.660][INFO]: Waiting for pending navigations...
+[1713874240.660][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.664][INFO]: Waiting for pending navigations...
+[1713874240.665][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.665][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874240.877][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874240.877][INFO]: Waiting for pending navigations...
+[1713874240.878][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.882][INFO]: Waiting for pending navigations...
+[1713874240.883][INFO]: Done waiting for pending navigations. Status: ok
+[1713874240.883][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874241.095][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"tabpanel-login-8098993607\"]/form/div[4]/input"
+}
+[1713874241.095][INFO]: Waiting for pending navigations...
+[1713874241.095][INFO]: Done waiting for pending navigations. Status: ok
+[1713874241.100][INFO]: Waiting for pending navigations...
+[1713874241.100][INFO]: Done waiting for pending navigations. Status: ok
+[1713874241.100][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabpanel-login-8098993607"]/form/div[4]/input"}
+  (Session info: chrome=124.0.6367.61)
+[1713874241.319][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1713874241.319][INFO]: Waiting for pending navigations...
+[1713874241.320][INFO]: Done waiting for pending navigations. Status: ok
+[1713874241.329][INFO]: Waiting for pending navigations...
+[1713874241.329][INFO]: Done waiting for pending navigations. Status: ok
+[1713874241.330][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE ExecuteScript "\u003Chtml class=\"anonym__design21 anonym__design23 anonym__wide webkit chrome nottouch small-toolbar mail-ext-toolbar-disabled white-toolbar __ui-theme_enabled __ui-theme_light __is-layout-v1\" prefix=\"..."
+[1713874241.356][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND Screenshot {
+}
+[1713874241.356][INFO]: Waiting for pending navigations...
+[1713874241.357][INFO]: Done waiting for pending navigations. Status: ok
+[1713874241.468][INFO]: Waiting for pending navigations...
+[1713874241.469][INFO]: Done waiting for pending navigations. Status: ok
+[1713874241.469][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4UAAAPZCAYAAAAWRfyuAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt8XXWd7//3d++99i3Xtkkv4VKUgi1oR6wdK4PoUI4WGRig/rQqMCgX0Rkc5eDBcRCOYwdRsDOI8utoYXCKiI6dU8EzgFLRWqFQCtoRW5gi1JbSNmmb676tv..."
+[1713874241.507][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] COMMAND Quit {
+}
+[1713874241.543][INFO]: [0a9c402e6c8ebd941bd0ecd5f4343311] RESPONSE Quit

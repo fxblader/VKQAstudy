@@ -1,0 +1,356 @@
+[1713877168.509][INFO]: Starting ChromeDriver 124.0.6367.60 (8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798}) on port 5287
+[1713877168.509][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1713877168.545][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\barkh\\IdeaProjects\\HW2\\build\\downloads\\1713877168477_12904_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1713877168.546][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chrome.exe
+[1713877168.546][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chrome.exe
+[1713877168.546][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chromium.exe
+[1713877168.548][INFO]: Browser search. Trying... C:\Users\barkh\AppData\Local\Google\Chrome\Application\chrome.exe
+[1713877168.548][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1713877168.548][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1713877168.548][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\barkh\\IdeaProjects\\HW2\\build\\downloads\\1713877168477_12904_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1713877168.549][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1713877168.549][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1713877168.549][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1713877168.550][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\barkh\AppData\Local\Temp\scoped_dir6968_434676439" --window-size=1920,1080 data:,
+[1713877169.082][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1713877169.087][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "124.0.6367.61",
+      "chrome": {
+         "chromedriverVersion": "124.0.6367.60 (8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798})",
+         "userDataDir": "C:\\Users\\barkh\\AppData\\Local\\Temp\\scoped_dir6968_434676439"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52938"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2b641dd844546624117a7b5e2f38d895"
+}
+[1713877169.115][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1713877169.115][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE SetTimeouts
+[1713877169.117][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND Navigate {
+   "url": "https://ok.ru/feed"
+}
+[1713877169.117][INFO]: Waiting for pending navigations...
+[1713877169.120][INFO]: Done waiting for pending navigations. Status: ok
+[1713877169.252][INFO]: Waiting for pending navigations...
+[1713877170.187][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.187][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE Navigate
+[1713877170.191][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877170.191][INFO]: Waiting for pending navigations...
+[1713877170.191][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.200][INFO]: Waiting for pending navigations...
+[1713877170.200][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.200][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877170.419][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877170.419][INFO]: Waiting for pending navigations...
+[1713877170.420][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.425][INFO]: Waiting for pending navigations...
+[1713877170.425][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.425][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877170.637][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877170.637][INFO]: Waiting for pending navigations...
+[1713877170.638][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.643][INFO]: Waiting for pending navigations...
+[1713877170.643][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.643][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877170.857][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877170.857][INFO]: Waiting for pending navigations...
+[1713877170.857][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.861][INFO]: Waiting for pending navigations...
+[1713877170.862][INFO]: Done waiting for pending navigations. Status: ok
+[1713877170.862][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877171.073][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877171.073][INFO]: Waiting for pending navigations...
+[1713877171.074][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.078][INFO]: Waiting for pending navigations...
+[1713877171.079][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.079][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877171.290][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877171.290][INFO]: Waiting for pending navigations...
+[1713877171.290][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.294][INFO]: Waiting for pending navigations...
+[1713877171.295][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.295][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877171.509][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877171.509][INFO]: Waiting for pending navigations...
+[1713877171.510][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.513][INFO]: Waiting for pending navigations...
+[1713877171.514][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.514][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877171.727][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877171.727][INFO]: Waiting for pending navigations...
+[1713877171.728][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.733][INFO]: Waiting for pending navigations...
+[1713877171.733][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.733][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877171.945][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877171.945][INFO]: Waiting for pending navigations...
+[1713877171.946][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.950][INFO]: Waiting for pending navigations...
+[1713877171.950][INFO]: Done waiting for pending navigations. Status: ok
+[1713877171.950][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877172.164][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877172.164][INFO]: Waiting for pending navigations...
+[1713877172.165][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.169][INFO]: Waiting for pending navigations...
+[1713877172.169][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.169][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877172.380][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877172.380][INFO]: Waiting for pending navigations...
+[1713877172.380][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.384][INFO]: Waiting for pending navigations...
+[1713877172.384][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.384][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877172.597][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877172.597][INFO]: Waiting for pending navigations...
+[1713877172.597][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.601][INFO]: Waiting for pending navigations...
+[1713877172.601][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.601][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877172.814][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877172.814][INFO]: Waiting for pending navigations...
+[1713877172.814][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.818][INFO]: Waiting for pending navigations...
+[1713877172.818][INFO]: Done waiting for pending navigations. Status: ok
+[1713877172.818][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877173.033][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877173.033][INFO]: Waiting for pending navigations...
+[1713877173.034][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.038][INFO]: Waiting for pending navigations...
+[1713877173.039][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.039][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877173.249][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877173.249][INFO]: Waiting for pending navigations...
+[1713877173.250][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.254][INFO]: Waiting for pending navigations...
+[1713877173.254][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.254][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877173.465][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877173.465][INFO]: Waiting for pending navigations...
+[1713877173.465][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.469][INFO]: Waiting for pending navigations...
+[1713877173.469][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.469][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877173.683][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877173.683][INFO]: Waiting for pending navigations...
+[1713877173.683][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.688][INFO]: Waiting for pending navigations...
+[1713877173.688][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.688][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877173.901][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877173.901][INFO]: Waiting for pending navigations...
+[1713877173.902][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.907][INFO]: Waiting for pending navigations...
+[1713877173.907][INFO]: Done waiting for pending navigations. Status: ok
+[1713877173.907][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877174.118][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"hook_ToolbarIconDiscussions_ToolbarDiscussions\"]"
+}
+[1713877174.118][INFO]: Waiting for pending navigations...
+[1713877174.118][INFO]: Done waiting for pending navigations. Status: ok
+[1713877174.122][INFO]: Waiting for pending navigations...
+[1713877174.123][INFO]: Done waiting for pending navigations. Status: ok
+[1713877174.123][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="hook_ToolbarIconDiscussions_ToolbarDiscussions"]"}
+  (Session info: chrome=124.0.6367.61)
+[1713877174.338][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1713877174.338][INFO]: Waiting for pending navigations...
+[1713877174.339][INFO]: Done waiting for pending navigations. Status: ok
+[1713877174.347][INFO]: Waiting for pending navigations...
+[1713877174.347][INFO]: Done waiting for pending navigations. Status: ok
+[1713877174.347][INFO]: [2b641dd844546624117a7b5e2f38d895] RESPONSE ExecuteScript "\u003Chtml class=\"anonym__design21 anonym__design23 anonym__wide webkit chrome nottouch small-toolbar mail-ext-toolbar-disabled white-toolbar __ui-theme_colors-update __ui-theme_enabled __ui-theme_light..."
+[1713877174.366][INFO]: [2b641dd844546624117a7b5e2f38d895] COMMAND Screenshot {
+}
+[1713877174.366][INFO]: Waiting for pending navigations...
+[1713877174.368][INFO]: Done waiting for pending navigations. Status: ok
+[1713877174.385][WARNING]: Processing messages while being disconnected

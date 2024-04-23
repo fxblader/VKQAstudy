@@ -1,0 +1,422 @@
+[1713874733.386][INFO]: Starting ChromeDriver 124.0.6367.60 (8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798}) on port 18108
+[1713874733.386][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1713874733.479][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\barkh\\IdeaProjects\\HW2\\build\\downloads\\1713874733255_16260_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1713874733.480][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chrome.exe
+[1713874733.480][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chrome.exe
+[1713874733.480][INFO]: Browser search. Trying... C:\Users\barkh\.cache\selenium\chromedriver\win64\124.0.6367.60\chromium.exe
+[1713874733.482][INFO]: Browser search. Trying... C:\Users\barkh\AppData\Local\Google\Chrome\Application\chrome.exe
+[1713874733.482][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1713874733.482][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1713874733.483][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\barkh\\IdeaProjects\\HW2\\build\\downloads\\1713874733255_16260_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1713874733.483][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1713874733.484][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1713874733.484][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1713874733.485][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\barkh\AppData\Local\Temp\scoped_dir12400_1399039423" --window-size=1920,1080 data:,
+[1713874733.992][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1713874733.995][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "124.0.6367.61",
+      "chrome": {
+         "chromedriverVersion": "124.0.6367.60 (8771130bd84f76d855ae42fbe02752b03e352f17-refs/branch-heads/6367@{#798})",
+         "userDataDir": "C:\\Users\\barkh\\AppData\\Local\\Temp\\scoped_dir12400_1399039423"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50532"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "21c2e98a4a7e3c391331de354c165a01"
+}
+[1713874734.078][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1713874734.078][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE SetTimeouts
+[1713874734.083][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND Navigate {
+   "url": "https://ok.ru/"
+}
+[1713874734.083][INFO]: Waiting for pending navigations...
+[1713874734.085][INFO]: Done waiting for pending navigations. Status: ok
+[1713874734.188][INFO]: Waiting for pending navigations...
+[1713874736.209][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.209][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE Navigate
+[1713874736.234][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"field_email\"]"
+}
+[1713874736.234][INFO]: Waiting for pending navigations...
+[1713874736.235][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.242][INFO]: Waiting for pending navigations...
+[1713874736.242][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.242][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.F1B7FDE247D65FD428C687338C6E83A3.d.76C9FA736E45BAD75763DFD65BE02A19.e.4"
+}
+[1713874736.246][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND TypeElement {
+   "id": "f.F1B7FDE247D65FD428C687338C6E83A3.d.76C9FA736E45BAD75763DFD65BE02A19.e.4",
+   "text": "technopol62",
+   "value": [ "t", "e", "c", "h", "n", "o", "p", "o", "l", "6", "2" ]
+}
+[1713874736.246][INFO]: Waiting for pending navigations...
+[1713874736.247][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.268][INFO]: Waiting for pending navigations...
+[1713874736.272][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.272][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE TypeElement
+[1713874736.274][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"field_password\"]"
+}
+[1713874736.274][INFO]: Waiting for pending navigations...
+[1713874736.275][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.281][INFO]: Waiting for pending navigations...
+[1713874736.281][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.281][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.F1B7FDE247D65FD428C687338C6E83A3.d.76C9FA736E45BAD75763DFD65BE02A19.e.5"
+}
+[1713874736.284][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND TypeElement {
+   "id": "f.F1B7FDE247D65FD428C687338C6E83A3.d.76C9FA736E45BAD75763DFD65BE02A19.e.5",
+   "text": "technopolisPassword",
+   "value": [ "t", "e", "c", "h", "n", "o", "p", "o", "l", "i", "s", "P", "a", "s", "s", "w", "o", "r", "d" ]
+}
+[1713874736.284][INFO]: Waiting for pending navigations...
+[1713874736.285][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.322][INFO]: Waiting for pending navigations...
+[1713874736.325][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.325][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE TypeElement
+[1713874736.359][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874736.359][INFO]: Waiting for pending navigations...
+[1713874736.359][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.366][INFO]: Waiting for pending navigations...
+[1713874736.367][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.367][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874736.592][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874736.592][INFO]: Waiting for pending navigations...
+[1713874736.592][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.597][INFO]: Waiting for pending navigations...
+[1713874736.597][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.597][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874736.807][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874736.807][INFO]: Waiting for pending navigations...
+[1713874736.808][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.813][INFO]: Waiting for pending navigations...
+[1713874736.814][INFO]: Done waiting for pending navigations. Status: ok
+[1713874736.814][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874737.023][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874737.023][INFO]: Waiting for pending navigations...
+[1713874737.024][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.029][INFO]: Waiting for pending navigations...
+[1713874737.029][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.029][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874737.240][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874737.240][INFO]: Waiting for pending navigations...
+[1713874737.241][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.245][INFO]: Waiting for pending navigations...
+[1713874737.246][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.246][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874737.458][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874737.458][INFO]: Waiting for pending navigations...
+[1713874737.459][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.464][INFO]: Waiting for pending navigations...
+[1713874737.464][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.464][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874737.676][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874737.676][INFO]: Waiting for pending navigations...
+[1713874737.676][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.681][INFO]: Waiting for pending navigations...
+[1713874737.682][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.682][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874737.893][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874737.893][INFO]: Waiting for pending navigations...
+[1713874737.894][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.899][INFO]: Waiting for pending navigations...
+[1713874737.899][INFO]: Done waiting for pending navigations. Status: ok
+[1713874737.899][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874738.110][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874738.110][INFO]: Waiting for pending navigations...
+[1713874738.111][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.116][INFO]: Waiting for pending navigations...
+[1713874738.117][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.117][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874738.328][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874738.328][INFO]: Waiting for pending navigations...
+[1713874738.328][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.333][INFO]: Waiting for pending navigations...
+[1713874738.333][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.333][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874738.544][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874738.544][INFO]: Waiting for pending navigations...
+[1713874738.544][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.549][INFO]: Waiting for pending navigations...
+[1713874738.549][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.549][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874738.762][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874738.762][INFO]: Waiting for pending navigations...
+[1713874738.762][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.767][INFO]: Waiting for pending navigations...
+[1713874738.768][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.768][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874738.980][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874738.980][INFO]: Waiting for pending navigations...
+[1713874738.980][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.986][INFO]: Waiting for pending navigations...
+[1713874738.986][INFO]: Done waiting for pending navigations. Status: ok
+[1713874738.986][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874739.197][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874739.197][INFO]: Waiting for pending navigations...
+[1713874739.197][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.202][INFO]: Waiting for pending navigations...
+[1713874739.203][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.203][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874739.411][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874739.411][INFO]: Waiting for pending navigations...
+[1713874739.411][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.417][INFO]: Waiting for pending navigations...
+[1713874739.417][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.417][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874739.628][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874739.628][INFO]: Waiting for pending navigations...
+[1713874739.628][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.633][INFO]: Waiting for pending navigations...
+[1713874739.634][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.634][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874739.845][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874739.845][INFO]: Waiting for pending navigations...
+[1713874739.845][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.850][INFO]: Waiting for pending navigations...
+[1713874739.851][INFO]: Done waiting for pending navigations. Status: ok
+[1713874739.851][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874740.062][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874740.062][INFO]: Waiting for pending navigations...
+[1713874740.063][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.068][INFO]: Waiting for pending navigations...
+[1713874740.068][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.068][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874740.279][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Log in to OK\"]/parent::*"
+}
+[1713874740.279][INFO]: Waiting for pending navigations...
+[1713874740.280][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.285][INFO]: Waiting for pending navigations...
+[1713874740.285][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.285][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Log in to OK"]/parent::*"}
+  (Session info: chrome=124.0.6367.61)
+[1713874740.500][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1713874740.500][INFO]: Waiting for pending navigations...
+[1713874740.500][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.509][INFO]: Waiting for pending navigations...
+[1713874740.510][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.510][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE ExecuteScript "\u003Chtml class=\"anonym__design21 anonym__design23 anonym__wide webkit chrome nottouch small-toolbar mail-ext-toolbar-disabled white-toolbar __ui-theme_enabled __ui-theme_light __is-layout-v1\" prefix=\"..."
+[1713874740.530][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND Screenshot {
+}
+[1713874740.530][INFO]: Waiting for pending navigations...
+[1713874740.530][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.643][INFO]: Waiting for pending navigations...
+[1713874740.644][INFO]: Done waiting for pending navigations. Status: ok
+[1713874740.644][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4UAAAPZCAYAAAAWRfyuAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt8XXWd7//3d++99i3Xtkkv4VKUgi1oR6wdK4PoUI4WGRig/rQqMCgX0Rkc5eDBcRCOYwdRsDOI8utoYXCKiI6dU8EzgFLRWqFQCtoRW5gi1JbSNmmb676tv..."
+[1713874740.686][INFO]: [21c2e98a4a7e3c391331de354c165a01] COMMAND Quit {
+}
+[1713874740.723][INFO]: [21c2e98a4a7e3c391331de354c165a01] RESPONSE Quit
